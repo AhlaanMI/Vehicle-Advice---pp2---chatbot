@@ -1,0 +1,484 @@
+{
+  "intents": [
+    {
+      "tag": "Intro",
+      "patterns": [
+        "Hello", 
+        "Hi there", 
+        "Hey", 
+        "Hi", 
+        "What's up?", 
+        "Hello there", 
+        "How's it going?",
+        "Good morning",
+        "Good afternoon",
+        "Good evening"
+      ],
+      "responses": [
+        "Hi! How can I assist you with your vehicle maintenance today?",
+        "Hello! What can I help you with regarding your car?",
+        "Hey there! Need help with your vehicle?"
+      ]
+    },
+    {
+      "tag": "TireMaintenance",
+      "patterns": [
+        "How often should I check my tires?", 
+        "When should I replace my tires?", 
+        "What is the lifespan of tires?", 
+        "How do I know when my tires need replacing?", 
+        "Are my tires wearing out?",
+        "What’s the ideal tire pressure?",
+        "Can I drive with a flat tire?",
+        "How do I rotate my tires?",
+        "What causes uneven tire wear?",
+        "Should I replace all four tires at once?"
+      ],
+      "responses": [
+        "Tires should be checked at least once a month. Look for signs like uneven wear, cracks, or low tread depth. If the tread is below 2/32 of an inch, it’s time for new tires!",
+        "The ideal tire pressure is usually listed on a sticker inside your driver’s door. Check it monthly to ensure proper inflation.",
+        "Driving with a flat tire can damage your rims and suspension. Replace or repair it immediately."
+      ]
+    },
+    {
+      "tag": "OilChange",
+      "patterns": [
+        "How often should I change my oil?", 
+        "When is it time to change my engine oil?", 
+        "How do I know if my oil needs changing?", 
+        "What happens if I don't change my oil?", 
+        "What type of oil should I use for my car?",
+        "Can I use synthetic oil?",
+        "How do I check my oil level?",
+        "What does the oil change light mean?",
+        "Can I change my oil myself?",
+        "What’s the difference between conventional and synthetic oil?"
+      ],
+      "responses": [
+        "It's recommended to change your oil every 3,000 to 5,000 miles, but check your vehicle's manual for the specific interval. Using the right oil type for your engine is essential for optimal performance.",
+        "Synthetic oil lasts longer and performs better in extreme temperatures, but it’s more expensive than conventional oil.",
+        "Check your oil level using the dipstick. Make sure the car is on level ground and the engine is cool."
+      ]
+    },
+    {
+      "tag": "BrakeMaintenance",
+      "patterns": [
+        "How do I know if my brakes need maintenance?", 
+        "When should I replace my brake pads?", 
+        "What are the signs of worn-out brakes?", 
+        "How long do brake pads last?", 
+        "What should I do if my brakes are squeaking?",
+        "Can I replace brake pads myself?",
+        "What’s the cost of brake pad replacement?",
+        "Why are my brakes grinding?",
+        "How do I bleed my brakes?",
+        "What’s the difference between brake pads and rotors?"
+      ],
+      "responses": [
+        "If you hear squeaking, grinding noises, or experience poor braking performance, it’s time to inspect your brakes. Brake pads typically last 25,000 to 70,000 miles depending on driving habits.",
+        "Grinding noises usually mean your brake pads are worn out and need immediate replacement.",
+        "Bleeding your brakes removes air bubbles from the brake lines, improving braking performance."
+      ]
+    },
+    {
+      "tag": "BatteryCare",
+      "patterns": [
+        "How do I take care of my car battery?", 
+        "How long does a car battery last?", 
+        "What should I do if my car battery is dead?", 
+        "How do I know if my battery is weak?", 
+        "Can I jump-start my car safely?",
+        "How do I clean battery terminals?",
+        "What’s the average cost of a car battery?",
+        "Can a bad battery cause starting problems?",
+        "How do I test my car battery?",
+        "What’s the difference between AGM and lead-acid batteries?"
+      ],
+      "responses": [
+        "Car batteries last about 3-5 years. Regularly check for corrosion, and ensure battery terminals are tight. If your battery is dead, try jump-starting it with proper safety precautions.",
+        "Clean battery terminals with a mixture of baking soda and water to prevent corrosion.",
+        "A weak battery can cause slow engine cranking or difficulty starting your car."
+      ]
+    },
+    {
+      "tag": "AirFilter",
+      "patterns": [
+        "How often should I replace my air filter?", 
+        "When should I change my car’s air filter?", 
+        "Can a dirty air filter affect my car’s performance?", 
+        "What happens if my air filter is clogged?", 
+        "How do I know if my air filter is dirty?",
+        "Can I clean my air filter instead of replacing it?",
+        "What’s the cost of an air filter replacement?",
+        "How do I locate my car’s air filter?",
+        "What’s the difference between cabin and engine air filters?",
+        "Can a dirty air filter cause poor fuel economy?"
+      ],
+      "responses": [
+        "Air filters should be replaced every 12,000 to 15,000 miles. A clogged filter can reduce engine performance and fuel efficiency.",
+        "Cabin air filters clean the air inside your car, while engine air filters clean the air going into your engine.",
+        "A dirty air filter can reduce fuel economy by up to 10%."
+      ]
+    },
+    {
+      "tag": "FluidLevels",
+      "patterns": [
+        "How often should I check my car’s fluid levels?", 
+        "Which fluids do I need to check in my car?", 
+        "What should I do if my car’s fluid levels are low?", 
+        "What happens if my car runs low on fluids?", 
+        "How do I know if my car needs a fluid change?",
+        "What’s the difference between brake fluid and power steering fluid?",
+        "Can I mix different types of coolant?",
+        "How do I check transmission fluid?",
+        "What’s the purpose of windshield washer fluid?",
+        "Can low fluid levels cause engine damage?"
+      ],
+      "responses": [
+        "Check your fluid levels every 3,000 miles. Common fluids to monitor include engine oil, brake fluid, transmission fluid, coolant, and power steering fluid.",
+        "Low fluid levels can cause overheating, poor braking, or transmission failure.",
+        "Never mix different types of coolant, as it can damage your cooling system."
+      ]
+    },
+    {
+      "tag": "TimingBelt",
+      "patterns": [
+        "How often should I replace my timing belt?", 
+        "What happens if the timing belt breaks?", 
+        "How do I know if my timing belt needs replacing?", 
+        "What is the lifespan of a timing belt?", 
+        "When should I replace my car’s timing belt?",
+        "Can I replace the timing belt myself?",
+        "What’s the cost of timing belt replacement?",
+        "What’s the difference between a timing belt and a serpentine belt?",
+        "Can a broken timing belt damage my engine?",
+        "How do I inspect my timing belt?"
+      ],
+      "responses": [
+        "Timing belts should typically be replaced every 60,000 to 100,000 miles, depending on your vehicle model. If it breaks, it can cause severe engine damage.",
+        "A broken timing belt can cause your engine to stop working or even damage the pistons and valves.",
+        "Inspect your timing belt for cracks, fraying, or missing teeth."
+      ]
+    },
+    {
+      "tag": "Coolant",
+      "patterns": [
+        "How often should I check my coolant?", 
+        "When should I replace my car’s coolant?", 
+        "How do I know if my coolant is low?", 
+        "Can I top off my coolant myself?", 
+        "What happens if my coolant is low?",
+        "What’s the difference between coolant and antifreeze?",
+        "Can I use water instead of coolant?",
+        "How do I flush my coolant system?",
+        "What’s the cost of a coolant flush?",
+        "Can low coolant cause overheating?"
+      ],
+      "responses": [
+        "Coolant should be checked regularly, ideally every 6 months. If your coolant is low, top it off with the correct type of coolant for your vehicle. Low coolant can lead to engine overheating.",
+        "Coolant and antifreeze are essentially the same thing. Antifreeze is mixed with water to create coolant.",
+        "Using water instead of coolant is not recommended, as it can freeze in cold temperatures or boil in hot conditions."
+      ]
+    },
+    {
+      "tag": "AirConditioning",
+      "patterns": [
+        "Why is my car’s air conditioning not working?", 
+        "How do I know if my air conditioning needs servicing?", 
+        "What can cause my AC to stop blowing cold air?", 
+        "How often should I service my air conditioning?", 
+        "Can I fix my AC myself?",
+        "What’s the cost of AC repair?",
+        "How do I recharge my car’s AC?",
+        "Can a bad AC compressor affect my engine?",
+        "What’s the difference between R134a and R1234yf refrigerant?",
+        "Why does my AC smell bad?"
+      ],
+      "responses": [
+        "If your AC isn’t blowing cold air, it could be due to low refrigerant, a clogged air filter, or a malfunctioning compressor. Regular servicing is recommended every 1-2 years to maintain efficiency.",
+        "Recharging your car’s AC can be done with a DIY kit, but it’s best to consult a professional for major issues.",
+        "A bad AC compressor can strain your engine and reduce fuel efficiency."
+      ]
+    },
+    {
+      "tag": "ExhaustSystem",
+      "patterns": [
+        "What should I do if my car’s exhaust system is making noise?", 
+        "How do I know if my exhaust system is leaking?", 
+        "When should I replace my exhaust system?", 
+        "Can a damaged exhaust system affect my car’s performance?", 
+        "What are the signs of a failing exhaust system?",
+        "What’s the cost of exhaust system repair?",
+        "How do I fix a hole in my exhaust pipe?",
+        "Can a bad exhaust system cause poor fuel economy?",
+        "What’s the difference between a muffler and a catalytic converter?",
+        "Why is my exhaust smoking?"
+      ],
+      "responses": [
+        "If your exhaust system is making noise or you smell unusual fumes, have it checked immediately. A leaking exhaust can reduce fuel efficiency and increase harmful emissions.",
+        "A hole in your exhaust pipe can be temporarily fixed with exhaust tape, but it’s best to replace the damaged section.",
+        "Smoke from your exhaust could indicate burning oil or a coolant leak."
+      ]
+    },
+    {
+      "tag": "TransmissionCare",
+      "patterns": [
+        "How do I maintain my car’s transmission?", 
+        "When should I change the transmission fluid?", 
+        "What happens if I don’t change my transmission fluid?", 
+        "How do I know if my transmission is failing?", 
+        "What are the signs of transmission problems?",
+        "Can I change transmission fluid myself?",
+        "What’s the cost of transmission repair?",
+        "How do I check transmission fluid level?",
+        "What’s the difference between automatic and manual transmission fluid?",
+        "Can a bad transmission cause my car to stall?"
+      ],
+      "responses": [
+        "Transmission fluid should be changed every 30,000 to 60,000 miles. If the fluid is low or dirty, it can lead to transmission damage. Signs of transmission problems include slipping gears or rough shifting.",
+        "Changing transmission fluid yourself is possible, but it’s a complex process that requires specific tools.",
+        "A bad transmission can cause your car to stall or fail to move."
+      ]
+    },
+    {
+      "tag": "WindshieldWipers",
+      "patterns": [
+        "How often should I replace my windshield wipers?", 
+        "When do I know my windshield wipers are worn out?", 
+        "Why are my wipers leaving streaks?", 
+        "What should I do if my wipers aren’t working?", 
+        "How do I maintain my windshield wipers?",
+        "What’s the cost of new wiper blades?",
+        "Can I replace wiper blades myself?",
+        "What’s the difference between winter and summer wiper blades?",
+        "Why do my wipers squeak?",
+        "How do I clean my windshield wipers?"
+      ],
+      "responses": [
+        "Wipers should be replaced every 6 to 12 months or when they begin leaving streaks or making noise. Keep them clean and replace them if they show signs of wear.",
+        "Winter wiper blades are designed to handle snow and ice, while summer blades are optimized for rain.",
+        "Squeaking wipers can be caused by dirt or worn-out rubber."
+      ]
+    },
+    {
+      "tag": "FuelEfficiency",
+      "patterns": [
+        "How can I improve my car’s fuel efficiency?", 
+        "What affects my car’s fuel efficiency?", 
+        "Why is my car using more fuel than usual?", 
+        "How do I get better gas mileage?", 
+        "What can I do to save gas?",
+        "Does driving speed affect fuel efficiency?",
+        "Can tire pressure affect gas mileage?",
+        "How does air conditioning impact fuel economy?",
+        "What’s the best way to drive for better fuel efficiency?",
+        "Can a dirty air filter reduce fuel economy?"
+      ],
+      "responses": [
+        "To improve fuel efficiency, maintain your vehicle regularly, keep your tires properly inflated, drive at steady speeds, and avoid excessive idling.",
+        "Driving at high speeds or accelerating quickly can significantly reduce fuel efficiency.",
+        "A dirty air filter can reduce fuel economy by up to 10%."
+      ]
+    },
+    {
+      "tag": "Suspension",
+      "patterns": [
+        "What are the signs of suspension problems?", 
+        "How do I know if my suspension is failing?", 
+        "What should I do if my car bounces too much?", 
+        "Can suspension problems affect my car’s handling?", 
+        "How often should I check my suspension?",
+        "What’s the cost of suspension repair?",
+        "Can I replace shock absorbers myself?",
+        "What’s the difference between shocks and struts?",
+        "Why is my car pulling to one side?",
+        "Can bad suspension cause uneven tire wear?"
+      ],
+      "responses": [
+        "If your car bounces excessively, feels unstable when turning, or your tires wear unevenly, your suspension may need attention. Regularly inspect shock absorbers and struts.",
+        "Shocks and struts are both part of the suspension system, but struts are structural components, while shocks are not.",
+        "A car pulling to one side could indicate alignment or suspension issues."
+      ]
+    },
+    {
+      "tag": "RegularMaintenance",
+      "patterns": [
+        "What regular maintenance does my car need?", 
+        "How can I keep my car in good condition?", 
+        "What should I check on my car every month?", 
+        "How can I take care of my car long term?", 
+        "What is the most important car maintenance task?",
+        "How do I create a car maintenance schedule?",
+        "What’s included in a basic car service?",
+        "How often should I wash my car?",
+        "Can I do regular maintenance myself?",
+        "What’s the cost of regular car maintenance?"
+      ],
+      "responses": [
+        "Regular maintenance includes checking tire pressure, fluid levels, and brakes, as well as changing oil and replacing air filters. Refer to your vehicle’s manual for a maintenance schedule.",
+        "Washing your car regularly prevents rust and keeps the paint in good condition.",
+        "Basic car service typically includes oil changes, tire rotations, and fluid checks."
+      ]
+    },
+    {
+      "tag": "GeneralRepair",
+      "patterns": [
+        "How do I know if my car needs repair?", 
+        "What are common car repairs?", 
+        "Can I do my car’s repairs myself?", 
+        "How do I fix my car?", 
+        "Should I take my car to a mechanic?",
+        "What’s the cost of common car repairs?",
+        "How do I find a reliable mechanic?",
+        "Can I use aftermarket parts for repairs?",
+        "What’s the difference between OEM and aftermarket parts?",
+        "How do I diagnose car problems?"
+      ],
+      "responses": [
+        "If your car is making unusual noises, experiencing performance issues, or warning lights are on, it’s time for a repair. Some repairs are DIY, but others are best handled by a professional.",
+        "OEM parts are made by the vehicle manufacturer, while aftermarket parts are made by third-party companies.",
+        "Diagnosing car problems often requires a scan tool to read error codes from the car’s computer."
+      ]
+    },
+    {
+      "tag": "EmergencyRepairs",
+      "patterns": [
+        "What should I do if my car breaks down?", 
+        "How do I handle a car emergency?", 
+        "What tools should I keep in my car for emergencies?", 
+        "Can I fix my car if it breaks down on the road?", 
+        "What’s the first thing I should do if my car stops working?",
+        "How do I change a flat tire?",
+        "What’s included in an emergency car kit?",
+        "Can I use a tire sealant for a flat tire?",
+        "How do I call for roadside assistance?",
+        "What should I do if my car overheats?"
+      ],
+      "responses": [
+        "If your car breaks down, first stay safe. Turn on your hazard lights and call for roadside assistance if needed. Keep emergency supplies like jumper cables, a spare tire, and basic tools in your car.",
+        "An emergency car kit should include a flashlight, first aid kit, jumper cables, and a reflective triangle.",
+        "If your car overheats, pull over immediately and let the engine cool down before checking the coolant level."
+      ]
+    },
+	  {
+      "tag": "Suspension",
+      "patterns": [
+        "What are the signs of suspension problems?", 
+        "How do I know if my suspension is failing?", 
+        "What should I do if my car bounces too much?", 
+        "Can suspension problems affect my car’s handling?", 
+        "How often should I check my suspension?",
+        "What’s the cost of suspension repair?",
+        "Can I replace shock absorbers myself?",
+        "What’s the difference between shocks and struts?",
+        "Why is my car pulling to one side?",
+        "Can bad suspension cause uneven tire wear?"
+      ],
+      "responses": [
+        "If your car bounces excessively, feels unstable when turning, or your tires wear unevenly, your suspension may need attention. Regularly inspect shock absorbers and struts.",
+        "Shocks and struts are both part of the suspension system, but struts are structural components, while shocks are not.",
+        "A car pulling to one side could indicate alignment or suspension issues."
+      ]
+    },
+    {
+      "tag": "RegularMaintenance",
+      "patterns": [
+        "What regular maintenance does my car need?", 
+        "How can I keep my car in good condition?", 
+        "What should I check on my car every month?", 
+        "How can I take care of my car long term?", 
+        "What is the most important car maintenance task?",
+        "How do I create a car maintenance schedule?",
+        "What’s included in a basic car service?",
+        "How often should I wash my car?",
+        "Can I do regular maintenance myself?",
+        "What’s the cost of regular car maintenance?"
+      ],
+      "responses": [
+        "Regular maintenance includes checking tire pressure, fluid levels, and brakes, as well as changing oil and replacing air filters. Refer to your vehicle’s manual for a maintenance schedule.",
+        "Washing your car regularly prevents rust and keeps the paint in good condition.",
+        "Basic car service typically includes oil changes, tire rotations, and fluid checks."
+      ]
+    },
+    {
+      "tag": "GeneralRepair",
+      "patterns": [
+        "How do I know if my car needs repair?", 
+        "What are common car repairs?", 
+        "Can I do my car’s repairs myself?", 
+        "How do I fix my car?", 
+        "Should I take my car to a mechanic?",
+        "What’s the cost of common car repairs?",
+        "How do I find a reliable mechanic?",
+        "Can I use aftermarket parts for repairs?",
+        "What’s the difference between OEM and aftermarket parts?",
+        "How do I diagnose car problems?"
+      ],
+      "responses": [
+        "If your car is making unusual noises, experiencing performance issues, or warning lights are on, it’s time for a repair. Some repairs are DIY, but others are best handled by a professional.",
+        "OEM parts are made by the vehicle manufacturer, while aftermarket parts are made by third-party companies.",
+        "Diagnosing car problems often requires a scan tool to read error codes from the car’s computer."
+      ]
+    },
+	{
+      "tag": "TireMaintenance",
+      "patterns": [
+        "How often should I check my tires?", 
+        "When should I replace my tires?", 
+        "What is the lifespan of tires?", 
+        "How do I know when my tires need replacing?", 
+        "Are my tires wearing out?",
+        "What’s the ideal tire pressure?",
+        "Can I drive with a flat tire?",
+        "How do I rotate my tires?",
+        "What causes uneven tire wear?",
+        "Should I replace all four tires at once?"
+      ],
+      "responses": [
+        "Tires should be checked at least once a month. Look for signs like uneven wear, cracks, or low tread depth. If the tread is below 2/32 of an inch, it’s time for new tires!",
+        "The ideal tire pressure is usually listed on a sticker inside your driver’s door. Check it monthly to ensure proper inflation.",
+        "Driving with a flat tire can damage your rims and suspension. Replace or repair it immediately."
+      ]
+    },
+    {
+      "tag": "OilChange",
+      "patterns": [
+        "How often should I change my oil?", 
+        "When is it time to change my engine oil?", 
+        "How do I know if my oil needs changing?", 
+        "What happens if I don't change my oil?", 
+        "What type of oil should I use for my car?",
+        "Can I use synthetic oil?",
+        "How do I check my oil level?",
+        "What does the oil change light mean?",
+        "Can I change my oil myself?",
+        "What’s the difference between conventional and synthetic oil?"
+      ],
+      "responses": [
+        "It's recommended to change your oil every 3,000 to 5,000 miles, but check your vehicle's manual for the specific interval. Using the right oil type for your engine is essential for optimal performance.",
+        "Synthetic oil lasts longer and performs better in extreme temperatures, but it’s more expensive than conventional oil.",
+        "Check your oil level using the dipstick. Make sure the car is on level ground and the engine is cool."
+      ]
+    },
+    {
+      "tag": "BrakeMaintenance",
+      "patterns": [
+        "How do I know if my brakes need maintenance?", 
+        "When should I replace my brake pads?", 
+        "What are the signs of worn-out brakes?", 
+        "How long do brake pads last?", 
+        "What should I do if my brakes are squeaking?",
+        "Can I replace brake pads myself?",
+        "What’s the cost of brake pad replacement?",
+        "Why are my brakes grinding?",
+        "How do I bleed my brakes?",
+        "What’s the difference between brake pads and rotors?"
+      ],
+      "responses": [
+        "If you hear squeaking, grinding noises, or experience poor braking performance, it’s time to inspect your brakes. Brake pads typically last 25,000 to 70,000 miles depending on driving habits.",
+        "Grinding noises usually mean your brake pads are worn out and need immediate replacement.",
+        "Bleeding your brakes removes air bubbles from the brake lines, improving braking performance."
+      ]
+    }
+  ]
+}
