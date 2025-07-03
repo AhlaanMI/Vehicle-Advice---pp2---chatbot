@@ -127,8 +127,8 @@ This project was developed as part of my final year research module and integrat
 
 **Ahlaan Imamdeen**  
 Final Year Undergraduate | BSc in Software Engineering  
-📧 ahlaan@example.com  
-🔗 [LinkedIn](https://www.linkedin.com/in/your-profile)
+📧 mohamedahlan58@gmail.com  
+🔗 [LinkedIn]([https://www.linkedin.com/in/your-profile](https://linkedin.com/in/ahlaan))
 
 ---
 
