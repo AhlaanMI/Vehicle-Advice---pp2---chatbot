@@ -1,7 +1,7 @@
 
 # 🤖 AutoMile - Vehicle Advisor Chatbot
 
-![Auto Advisor Chatbot Dashboard](./ccbd631a-51bd-42e5-baed-ae370b2d2284.png)
+![Auto Advisor Chatbot Dashboard](https://github.com/AhlaanMI/Vehicle-Advice---pp2---chatbot/blob/master/Static/images/pp.png)
 
 ## 🔍 Overview
 
