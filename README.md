@@ -1,3 +1,4 @@
+
 # 🤖 AutoMile - Vehicle Advisor Chatbot
 
 ![Auto Advisor Chatbot Dashboard](./ccbd631a-51bd-42e5-baed-ae370b2d2284.png)
@@ -54,20 +55,18 @@ The chatbot uses **Natural Language Processing (NLP)** and a trained deep learni
 
 ## 📁 Project Structure
 
-├── app.py # Flask app
-├── train_model.py # Model training script
-├── chatbot.h5 # Trained chatbot model
-├── words.pkl # Preprocessed vocabulary
-├── classes.pkl # Target class labels
+```
+├── app.py                    # Flask app
+├── train_model.py            # Model training script
+├── chatbot.h5                # Trained chatbot model
+├── words.pkl                 # Preprocessed vocabulary
+├── classes.pkl               # Target class labels
 ├── vehicle_advice_Data.json # Custom dataset
 ├── templates/
-│ └── index.html # Frontend interface
-├── static/ # JS/CSS assets
+│   └── index.html            # Frontend interface
+├── static/                   # JS/CSS assets
 └── README.md
-
-yaml
-Copy
-Edit
+```
 
 ---
 
@@ -79,65 +78,64 @@ Ensure you have Python 3.x installed.
 ### 📦 Step 1: Install Dependencies
 ```bash
 pip install -r requirements.txt
-If requirements.txt is not provided, install manually:
+```
 
-bash
-Copy
-Edit
+If `requirements.txt` is not provided, install manually:
+```bash
 pip install flask tensorflow nltk numpy
-▶️ Step 2: Run the Application
-bash
-Copy
-Edit
+```
+
+### ▶️ Step 2: Run the Application
+```bash
 python app.py
-Visit http://127.0.0.1:5000 in your browser to interact with the chatbot.
+```
 
-🚗 Example Questions to Ask the Bot
-"How do I take care of my car battery?"
-
-"Why is my engine overheating?"
-
-"What causes brake noise?"
-
-"Can low coolant cause issues?"
-
-The chatbot will respond with helpful automotive guidance based on its trained dataset.
-
-📚 Research Context
-This project was developed as part of my final year research module and integrates with a larger IoT-based vehicle monitoring system. The chatbot module is aimed at:
-
-Improving driver knowledge on routine vehicle care
-
-Reducing breakdown incidents through preventive advice
-
-Supporting both fleet operators and individual vehicle owners
-
-📸 User Interface Preview
-Auto Advisor Chatbot
-
-👨‍💻 Author
-Ahlaan Imamdeen
-Final Year Undergraduate | BSc in Software Engineering
-📧 ahlaan@example.com
-🔗 LinkedIn
-
-📄 License
-This project is licensed under the MIT License.
-
-⭐ If you found this project helpful, feel free to star the repo and share feedback!
-
-yaml
-Copy
-Edit
+Visit `http://127.0.0.1:5000` in your browser to interact with the chatbot.
 
 ---
 
-### ✅ Next Steps
+## 🚗 Example Questions to Ask the Bot
 
-If you want, I can:
+- "How do I take care of my car battery?"
+- "Why is my engine overheating?"
+- "What causes brake noise?"
+- "Can low coolant cause issues?"
 
-- Generate a `requirements.txt` file for you.
-- Export this as a downloadable `README.md` file.
-- Help you write a `LICENSE` file or deploy this to GitHub Pages.
+The chatbot will respond with helpful automotive guidance based on its trained dataset.
 
-Would you like any of those?
+---
+
+## 📚 Research Context
+
+This project was developed as part of my final year research module and integrates with a larger **IoT-based vehicle monitoring system**. The chatbot module is aimed at:
+
+- Improving driver knowledge on routine vehicle care
+- Reducing breakdown incidents through preventive advice
+- Supporting both fleet operators and individual vehicle owners
+
+---
+
+## 📸 User Interface Preview
+
+| Auto Advisor Chatbot |
+|----------------------|
+| ![Chatbot Dashboard](./ccbd631a-51bd-42e5-baed-ae370b2d2284.png) |
+
+---
+
+## 👨‍💻 Author
+
+**Ahlaan Imamdeen**  
+Final Year Undergraduate | BSc in Software Engineering  
+📧 ahlaan@example.com  
+🔗 [LinkedIn](https://www.linkedin.com/in/your-profile)
+
+---
+
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+> ⭐ *If you found this project helpful, feel free to star the repo and share feedback!*
