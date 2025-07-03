@@ -119,7 +119,7 @@ This project was developed as part of my final year research module and integrat
 
 | Auto Advisor Chatbot |
 |----------------------|
-| ![Chatbot Dashboard](./ccbd631a-51bd-42e5-baed-ae370b2d2284.png) |
+| ![Chatbot Dashboard](https://github.com/AhlaanMI/Vehicle-Advice---pp2---chatbot/blob/master/Static/images/pp.png) |
 
 ---
 
